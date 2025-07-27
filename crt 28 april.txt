@@ -1,0 +1,4 @@
+isinstance() function:
+syntax: isinstance(object,clssinfo)
+issubclass()
+syntax: issubclass(object, subclass)

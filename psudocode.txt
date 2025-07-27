@@ -1,0 +1,117 @@
+1)
+set p=8
+q=8
+r=6
+for(each r from 3 to 6)
+p=(r+12)+p
+p=(9+7)+r
+p=(r+p)+r
+end for
+r=(r+10)+p
+print(p+q)
+
+2)
+a=4
+b=7
+c=6
+for(each c from 2 to 4)
+a=3+b        +
+a=5+c
+a=c&b
+b=(12+7)+c
+end for 
+return a+b
+ans)27
+
+3)
+a=4
+b=2
+c=10
+if((c+b)<(10-c)&&a>b):
+    if((c+b+a)<(a+c))
+        b=(b+a)+a 
+    end if
+    a=(b+b)+b
+    c=(c+10)+c                               &&->both conditions should be true then you should consider
+end if
+return a+b+c
+ans)16
+
+
+
+4)
+p=7
+q=2
+r=7
+q=(9+5)&p
+for(each r from 2 to 3)
+p=(p+8)+q
+if((r+q)>(q-r)&&(6<q))
+    q=p+r 
+end if
+p=(r+11)+p 
+end for
+print p+q
+ans)68
+
+5)
+p=6
+q=8
+r=9
+for(each from 4 to 6)
+    p=(4+5)+r 
+    if((2+9)<r|| p>q)                         ||-> either one can be true 
+        p=(p+11)+p 
+        jump out of the loop(exit from the loop)
+    end if 
+    p=(q+10)+r 
+end for 
+print(p+q)
+
+ans)45
+
+
+
+6)
+p=4
+q=3
+r=7
+if((q^p^9)<(8+r+q))
+    r=(7^7)+q
+    q=(q+r)+p 
+end if 
+r=q+p 
+print(p+q+r)
+ans)28
+
+
+7)
+pp=2
+qq=4
+rr=4
+if((qq+6)>(rr-qq))
+    rr=(rr+rr)^pp
+        if((pp+qq)<(qq-pp))
+            qq=(rr^pp)&pp
+        else
+            qq=(2+9)+rr 
+        end if 
+end if 
+print(pp+qq+rr)
+ans) 33
+
+
+a=2
+b=4
+c=5
+
+b=(a+b)+c =20
+for(each c from 2 to 5)           c=2         c=3          c=4          c=5          
+    b=(10+5)+b                    
+    if((b>c)||(c+6)>(b-c))
+        continue
+    end if 
+    b=(a+c)+b
+end for 
+print a+b 
+ans) 73

@@ -1,0 +1,4 @@
+DYNAMIC PROGRAMMING(DP) is an optimization technique used to solve problems by breaking them down into smaller overlapping subproblems .It is particularly useful for problems that exhibit optimal substructure (where the solution to a problem can be constructed from solutions to its subproblems) and overlapping subproblems(where the same subproblem is solved multiple times).
+two types:
+1) TOP DOWN APPROACH(MEMOIZATION)
+2) BOTTOM APPROACH(TABULATION)
